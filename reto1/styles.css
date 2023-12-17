@@ -1,0 +1,384 @@
+/* header */
+h1 {
+  text-align: center;
+  font-size: 55px;
+}
+span {
+  color: #037bc0;
+}
+hr {
+  color: gray;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  padding: 15px;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: gray;
+}
+
+/* banner */
+.containeImg {
+  height: 750px;
+  overflow: hidden;
+}
+
+/* secciones */
+.ancho {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tituloProducto {
+  text-align: center;
+  font-size: 45px;
+}
+.categoria {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 100%;
+}
+
+.seccion {
+  margin-bottom: 20px;
+}
+
+.producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 10px; */
+}
+
+.btncat {
+  color: grey;
+  padding: 30px;
+  width: 84%;
+  text-align: center;
+}
+
+.btncat:hover {
+  color: white;
+  width: 84%;
+  background-color: #037bc0;
+  border-bottom-right-radius: 10px;
+}
+
+/* nosotros */
+.nosotros {
+  display: flex;
+  width: 100%;
+  height: 600px;
+}
+
+.containerImg {
+  width: 50%;
+  overflow: hidden;
+}
+
+.nosotrosTexto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 50%;
+  padding-left: 80px;
+  background-color: #037bc0;
+  color: white;
+}
+
+.nosotrosTexto h2 {
+  font-size: 45px;
+}
+
+.nosotrosTexto p {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.nuestrosProductos h2 {
+  font-size: 45px;
+  text-align: center;
+}
+
+.articulo1 {
+  display: flex;
+  background-color: #037bc0;
+}
+
+.articulo2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #037bc0;
+  margin: 25px 10px;
+}
+
+.containerImgP1 {
+  width: 100%;
+}
+
+.image1 {
+  width: 850px;
+  height: 550px;
+}
+
+/* Titulo y texto de articulos */
+.texto {
+  padding: 10px;
+}
+
+.texto h3 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+}
+.descripcion {
+  color: white;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.precio {
+  color: white;
+  font-size: 32px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #8cbc00;
+  color: white;
+  font-weight: 900;
+  padding: 1rem 3rem;
+  text-align: center;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background-color: #75970d;
+}
+
+.articulos23 {
+  display: flex;
+}
+
+.articulos456 {
+  display: flex;
+}
+
+/* footer */
+
+.secciones {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+}
+
+.seccion1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.seccion1 h3 {
+  font-size: 2.5rem;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 35px;
+}
+
+/* NOSOTROS */
+
+.h2t {
+  margin-top: 65px;
+  margin-bottom: 40px;
+}
+.quienesSomos {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.imgNosotros {
+  width: 600px;
+  padding-right: 25px;
+}
+
+.nosTexto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nosTextop {
+  color: grey;
+  font-size: 19px;
+  line-height: 32px;
+}
+
+/* BLOG */
+
+.blog {
+  display: flex;
+}
+
+.articulo {
+  margin-bottom: 50px;
+}
+.tituloBlog {
+  font-size: 35px;
+}
+
+.contenedorNoticias {
+  width: 1100px;
+}
+
+.asideTitulo {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+  width: 500px;
+  padding: 5px 30px;
+}
+
+.menuAside {
+  display: flex;
+  flex-direction: column;
+  line-height: 28px;
+  justify-content: center;
+  padding-left: 30px;
+}
+
+.estado {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedorBtn {
+  margin-top: 30px;
+}
+.btnBlog {
+  padding: 15px 150px;
+}
+
+/* GALERIA */
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.galeria div {
+  flex: 0 0 calc(33.33% - 10px);
+  margin-bottom: 20px;
+}
+
+.galeria img {
+  width: 380px;
+  height: 400px;
+  display: block;
+}
+
+/* Contacto */
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+legend {
+  background-color: #005485;
+  width: 230px;
+  text-align: center;
+  padding: 20px 91px;
+  color: white;
+  font-weight: 900;
+}
+
+.botonContact {
+  margin-top: 30px;
+}
+
+fieldset {
+  width: 50px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+legend {
+  font-size: 20px;
+  font-weight: bold;
+  width: 520px;
+}
+
+.contenedorInputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  display: flex;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  margin-right: 45px;
+  margin-left: 40px;
+  width: 85px;
+  font-weight: bold;
+}
+
+input {
+  width: 500px;
+  padding: 8px;
+  margin-bottom: 10px;
+  /* box-sizing: border-box; */
+}
+
+textarea {
+  height: 200px;
+  width: 515px;
+}
+
+.pais {
+  display: flex;
+}
+
+select {
+  width: 520px;
+  padding: 15px;
+}
+
+.infoExtra {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.catInteres {
+  display: flex;
+}
